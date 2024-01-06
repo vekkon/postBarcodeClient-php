@@ -175,7 +175,7 @@ class BarcodeApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        (array)json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ValidationError[]',
                         $e->getResponseHeaders()
                     );

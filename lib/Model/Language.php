@@ -53,10 +53,10 @@ class Language
     public static function getAllowableEnumValues()
     {
         return [
-            self::DE
-            self::FR
-            self::IT
-            self::EN
+            self::DE,
+            self::FR,
+            self::IT,
+            self::EN,
         ];
     }
 }
