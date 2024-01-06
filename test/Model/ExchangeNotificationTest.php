@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace Vekkon\PostBarcodeClient;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description If type is &#x27;SMS&#x27;, then the &#x27;mobile&#x27; property of the recipient of the label is mandatory. If type is &#x27;EMAIL&#x27;, then the &#x27;email&#x27; property of the recipient of the label is mandatory.
- * @package     Swagger\Client
+ * @package     Vekkon\PostBarcodeClient
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * LabelAddress Class Doc Comment
  *
  * @category Class
  * @description Optional, used to declare a specific address on the label.  If omitted, the address data of the recipient is taken.  Useful if the address data of the recipient exceeds the length of the label.
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

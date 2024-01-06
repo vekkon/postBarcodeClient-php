@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementCustomerDetails Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,8 +61,8 @@ class ReplacementCustomerDetails implements ModelInterface, ArrayAccess
         'image_file_type' => 'string',
         'image_resolution' => 'int',
         'print_preview' => 'bool',
-        'address' => '\Swagger\Client\Model\CustomerAddress',
-        'logo' => '\Swagger\Client\Model\CustomerLogo'
+        'address' => '\Vekkon\PostBarcodeClient\Model\CustomerAddress',
+        'logo' => '\Vekkon\PostBarcodeClient\Model\CustomerLogo'
     ];
 
     /**
@@ -366,7 +366,7 @@ class ReplacementCustomerDetails implements ModelInterface, ArrayAccess
     /**
      * Gets address
      *
-     * @return \Swagger\Client\Model\CustomerAddress
+     * @return \Vekkon\PostBarcodeClient\Model\CustomerAddress
      */
     public function getAddress()
     {
@@ -376,7 +376,7 @@ class ReplacementCustomerDetails implements ModelInterface, ArrayAccess
     /**
      * Sets address
      *
-     * @param \Swagger\Client\Model\CustomerAddress $address address
+     * @param \Vekkon\PostBarcodeClient\Model\CustomerAddress $address address
      *
      * @return $this
      */
@@ -390,7 +390,7 @@ class ReplacementCustomerDetails implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\CustomerLogo
+     * @return \Vekkon\PostBarcodeClient\Model\CustomerLogo
      */
     public function getLogo()
     {
@@ -400,7 +400,7 @@ class ReplacementCustomerDetails implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\CustomerLogo $logo logo
+     * @param \Vekkon\PostBarcodeClient\Model\CustomerLogo $logo logo
      *
      * @return $this
      */

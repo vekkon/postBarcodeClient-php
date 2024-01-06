@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * GenerateSingleBarcodes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'language' => '\Swagger\Client\Model\Language',
+        'language' => '\Vekkon\PostBarcodeClient\Model\Language',
         'franking_license' => 'string',
         'pp_franking' => 'bool',
-        'customer' => '\Swagger\Client\Model\CustomerAddress',
+        'customer' => '\Vekkon\PostBarcodeClient\Model\CustomerAddress',
         'customer_system' => 'string',
-        'barcode_definition' => '\Swagger\Client\Model\SingleBarcodesDefinition',
+        'barcode_definition' => '\Vekkon\PostBarcodeClient\Model\SingleBarcodesDefinition',
         'sending_id' => 'string',
-        'item' => '\Swagger\Client\Model\Item[]'
+        'item' => '\Vekkon\PostBarcodeClient\Model\Item[]'
     ];
 
     /**
@@ -261,7 +261,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Vekkon\PostBarcodeClient\Model\Language
      */
     public function getLanguage()
     {
@@ -271,7 +271,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Vekkon\PostBarcodeClient\Model\Language $language language
      *
      * @return $this
      */
@@ -333,7 +333,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\CustomerAddress
+     * @return \Vekkon\PostBarcodeClient\Model\CustomerAddress
      */
     public function getCustomer()
     {
@@ -343,7 +343,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\CustomerAddress $customer customer
+     * @param \Vekkon\PostBarcodeClient\Model\CustomerAddress $customer customer
      *
      * @return $this
      */
@@ -381,7 +381,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Gets barcode_definition
      *
-     * @return \Swagger\Client\Model\SingleBarcodesDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\SingleBarcodesDefinition
      */
     public function getBarcodeDefinition()
     {
@@ -391,7 +391,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Sets barcode_definition
      *
-     * @param \Swagger\Client\Model\SingleBarcodesDefinition $barcode_definition barcode_definition
+     * @param \Vekkon\PostBarcodeClient\Model\SingleBarcodesDefinition $barcode_definition barcode_definition
      *
      * @return $this
      */
@@ -429,7 +429,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Gets item
      *
-     * @return \Swagger\Client\Model\Item[]
+     * @return \Vekkon\PostBarcodeClient\Model\Item[]
      */
     public function getItem()
     {
@@ -439,7 +439,7 @@ class GenerateSingleBarcodes implements ModelInterface, ArrayAccess
     /**
      * Sets item
      *
-     * @param \Swagger\Client\Model\Item[] $item item
+     * @param \Vekkon\PostBarcodeClient\Model\Item[] $item item
      *
      * @return $this
      */

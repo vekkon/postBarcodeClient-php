@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * SingleBarcodesResponseItem Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class SingleBarcodesResponseItem implements ModelInterface, ArrayAccess
         'ident_code' => 'string',
         'barcodes' => 'string[]',
         'item_id' => 'string',
-        'errors' => '\Swagger\Client\Model\MessagesType',
-        'warnings' => '\Swagger\Client\Model\MessagesType'
+        'errors' => '\Vekkon\PostBarcodeClient\Model\MessagesType',
+        'warnings' => '\Vekkon\PostBarcodeClient\Model\MessagesType'
     ];
 
     /**
@@ -300,7 +300,7 @@ class SingleBarcodesResponseItem implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\MessagesType
+     * @return \Vekkon\PostBarcodeClient\Model\MessagesType
      */
     public function getErrors()
     {
@@ -310,7 +310,7 @@ class SingleBarcodesResponseItem implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\MessagesType $errors errors
+     * @param \Vekkon\PostBarcodeClient\Model\MessagesType $errors errors
      *
      * @return $this
      */
@@ -324,7 +324,7 @@ class SingleBarcodesResponseItem implements ModelInterface, ArrayAccess
     /**
      * Gets warnings
      *
-     * @return \Swagger\Client\Model\MessagesType
+     * @return \Vekkon\PostBarcodeClient\Model\MessagesType
      */
     public function getWarnings()
     {
@@ -334,7 +334,7 @@ class SingleBarcodesResponseItem implements ModelInterface, ArrayAccess
     /**
      * Sets warnings
      *
-     * @param \Swagger\Client\Model\MessagesType $warnings warnings
+     * @param \Vekkon\PostBarcodeClient\Model\MessagesType $warnings warnings
      *
      * @return $this
      */

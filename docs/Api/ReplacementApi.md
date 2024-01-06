@@ -1,4 +1,4 @@
-# Swagger\Client\ReplacementApi
+# Vekkon\PostBarcodeClient\ReplacementApi
 
 All URIs are relative to *https://dcapi.apis.post.ch/barcode/v1*
 
@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**submitReplacementRequest**](ReplacementApi.md#submitreplacementrequest) | **POST** /generateReplacementLabel | 
 
 # **submitReplacementRequest**
-> \Swagger\Client\Model\ReplacementResponse submitReplacementRequest($body)
+> \Vekkon\PostBarcodeClient\Model\ReplacementResponse submitReplacementRequest($body)
 
 
 
@@ -19,15 +19,15 @@ Generate Label for replacement of defective products
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure OAuth2 access token for authorization: ClientCredentials
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = Vekkon\PostBarcodeClient\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Swagger\Client\Api\ReplacementApi(
+$apiInstance = new Vekkon\PostBarcodeClient\Api\ReplacementApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\ReplacementRequest(); // \Swagger\Client\Model\ReplacementRequest | Replacement Request data
+$body = new \Vekkon\PostBarcodeClient\Model\ReplacementRequest(); // \Vekkon\PostBarcodeClient\Model\ReplacementRequest | Replacement Request data
 
 try {
     $result = $apiInstance->submitReplacementRequest($body);
@@ -42,11 +42,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ReplacementRequest**](../Model/ReplacementRequest.md)| Replacement Request data | [optional]
+ **body** | [**\Vekkon\PostBarcodeClient\Model\ReplacementRequest**](../Model/ReplacementRequest.md)| Replacement Request data | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\ReplacementResponse**](../Model/ReplacementResponse.md)
+[**\Vekkon\PostBarcodeClient\Model\ReplacementResponse**](../Model/ReplacementResponse.md)
 
 ### Authorization
 

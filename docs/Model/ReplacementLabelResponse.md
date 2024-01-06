@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**identcode** | [**\Swagger\Client\Model\IdentCode**](IdentCode.md) |  | [optional] 
+**identcode** | [**\Vekkon\PostBarcodeClient\Model\IdentCode**](IdentCode.md) |  | [optional] 
 **image_file_type** | **string** |  | [optional] 
 **label** | **string[]** | Label images, base64 encoded | [optional] 
 

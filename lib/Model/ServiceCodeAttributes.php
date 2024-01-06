@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ServiceCodeAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,10 +63,10 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
         'parcel_total' => 'int',
         'delivery_place' => 'string',
         'pro_clima' => 'bool',
-        'return_info' => '\Swagger\Client\Model\ReturnInfoType',
+        'return_info' => '\Vekkon\PostBarcodeClient\Model\ReturnInfoType',
         'weight' => 'int',
-        'unnumbers' => '\Swagger\Client\Model\UNNumbers',
-        'dispatch_info' => '\Swagger\Client\Model\DispatchInfo'
+        'unnumbers' => '\Vekkon\PostBarcodeClient\Model\UNNumbers',
+        'dispatch_info' => '\Vekkon\PostBarcodeClient\Model\DispatchInfo'
     ];
 
     /**
@@ -435,7 +435,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets return_info
      *
-     * @return \Swagger\Client\Model\ReturnInfoType
+     * @return \Vekkon\PostBarcodeClient\Model\ReturnInfoType
      */
     public function getReturnInfo()
     {
@@ -445,7 +445,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets return_info
      *
-     * @param \Swagger\Client\Model\ReturnInfoType $return_info return_info
+     * @param \Vekkon\PostBarcodeClient\Model\ReturnInfoType $return_info return_info
      *
      * @return $this
      */
@@ -483,7 +483,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets unnumbers
      *
-     * @return \Swagger\Client\Model\UNNumbers
+     * @return \Vekkon\PostBarcodeClient\Model\UNNumbers
      */
     public function getUnnumbers()
     {
@@ -493,7 +493,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets unnumbers
      *
-     * @param \Swagger\Client\Model\UNNumbers $unnumbers unnumbers
+     * @param \Vekkon\PostBarcodeClient\Model\UNNumbers $unnumbers unnumbers
      *
      * @return $this
      */
@@ -507,7 +507,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets dispatch_info
      *
-     * @return \Swagger\Client\Model\DispatchInfo
+     * @return \Vekkon\PostBarcodeClient\Model\DispatchInfo
      */
     public function getDispatchInfo()
     {
@@ -517,7 +517,7 @@ class ServiceCodeAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets dispatch_info
      *
-     * @param \Swagger\Client\Model\DispatchInfo $dispatch_info dispatch_info
+     * @param \Vekkon\PostBarcodeClient\Model\DispatchInfo $dispatch_info dispatch_info
      *
      * @return $this
      */

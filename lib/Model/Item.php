@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * Item Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class Item implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'item_id' => 'string',
         'item_number' => 'string',
-        'recipient' => '\Swagger\Client\Model\Recipient',
-        'additional_data' => '\Swagger\Client\Model\AdditionalData[]',
-        'attributes' => '\Swagger\Client\Model\ServiceCodeAttributes',
-        'notification' => '\Swagger\Client\Model\Notification[]'
+        'recipient' => '\Vekkon\PostBarcodeClient\Model\Recipient',
+        'additional_data' => '\Vekkon\PostBarcodeClient\Model\AdditionalData[]',
+        'attributes' => '\Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes',
+        'notification' => '\Vekkon\PostBarcodeClient\Model\Notification[]'
     ];
 
     /**
@@ -285,7 +285,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets recipient
      *
-     * @return \Swagger\Client\Model\Recipient
+     * @return \Vekkon\PostBarcodeClient\Model\Recipient
      */
     public function getRecipient()
     {
@@ -295,7 +295,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets recipient
      *
-     * @param \Swagger\Client\Model\Recipient $recipient recipient
+     * @param \Vekkon\PostBarcodeClient\Model\Recipient $recipient recipient
      *
      * @return $this
      */
@@ -309,7 +309,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets additional_data
      *
-     * @return \Swagger\Client\Model\AdditionalData[]
+     * @return \Vekkon\PostBarcodeClient\Model\AdditionalData[]
      */
     public function getAdditionalData()
     {
@@ -319,7 +319,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets additional_data
      *
-     * @param \Swagger\Client\Model\AdditionalData[] $additional_data additional_data
+     * @param \Vekkon\PostBarcodeClient\Model\AdditionalData[] $additional_data additional_data
      *
      * @return $this
      */
@@ -333,7 +333,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ServiceCodeAttributes
+     * @return \Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes
      */
     public function getAttributes()
     {
@@ -343,7 +343,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ServiceCodeAttributes $attributes attributes
+     * @param \Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -357,7 +357,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets notification
      *
-     * @return \Swagger\Client\Model\Notification[]
+     * @return \Vekkon\PostBarcodeClient\Model\Notification[]
      */
     public function getNotification()
     {
@@ -367,7 +367,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets notification
      *
-     * @param \Swagger\Client\Model\Notification[] $notification notification
+     * @param \Vekkon\PostBarcodeClient\Model\Notification[] $notification notification
      *
      * @return $this
      */

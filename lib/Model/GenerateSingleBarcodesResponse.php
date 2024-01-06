@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * GenerateSingleBarcodesResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class GenerateSingleBarcodesResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'barcode_definition' => '\Swagger\Client\Model\SingleBarcodesResponseDefinition',
+        'barcode_definition' => '\Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseDefinition',
         'sending_id' => 'string',
-        'item' => '\Swagger\Client\Model\SingleBarcodesResponseItem[]'
+        'item' => '\Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseItem[]'
     ];
 
     /**
@@ -219,7 +219,7 @@ class GenerateSingleBarcodesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets barcode_definition
      *
-     * @return \Swagger\Client\Model\SingleBarcodesResponseDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseDefinition
      */
     public function getBarcodeDefinition()
     {
@@ -229,7 +229,7 @@ class GenerateSingleBarcodesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets barcode_definition
      *
-     * @param \Swagger\Client\Model\SingleBarcodesResponseDefinition $barcode_definition barcode_definition
+     * @param \Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseDefinition $barcode_definition barcode_definition
      *
      * @return $this
      */
@@ -267,7 +267,7 @@ class GenerateSingleBarcodesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets item
      *
-     * @return \Swagger\Client\Model\SingleBarcodesResponseItem[]
+     * @return \Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseItem[]
      */
     public function getItem()
     {
@@ -277,7 +277,7 @@ class GenerateSingleBarcodesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets item
      *
-     * @param \Swagger\Client\Model\SingleBarcodesResponseItem[] $item item
+     * @param \Vekkon\PostBarcodeClient\Model\SingleBarcodesResponseItem[] $item item
      *
      * @return $this
      */

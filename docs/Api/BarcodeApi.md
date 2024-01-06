@@ -1,4 +1,4 @@
-# Swagger\Client\BarcodeApi
+# Vekkon\PostBarcodeClient\BarcodeApi
 
 All URIs are relative to *https://dcapi.apis.post.ch/barcode/v1*
 
@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**generateAddressLabel**](BarcodeApi.md#generateaddresslabel) | **POST** /generateAddressLabel | Generate Label
 
 # **generateAddressLabel**
-> \Swagger\Client\Model\GenerateLabelResponse generateAddressLabel($body)
+> \Vekkon\PostBarcodeClient\Model\GenerateLabelResponse generateAddressLabel($body)
 
 Generate Label
 
@@ -17,15 +17,15 @@ Generate Label
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure OAuth2 access token for authorization: ClientCredentials
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = Vekkon\PostBarcodeClient\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Swagger\Client\Api\BarcodeApi(
+$apiInstance = new Vekkon\PostBarcodeClient\Api\BarcodeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\GenerateLabel(); // \Swagger\Client\Model\GenerateLabel | 
+$body = new \Vekkon\PostBarcodeClient\Model\GenerateLabel(); // \Vekkon\PostBarcodeClient\Model\GenerateLabel | 
 
 try {
     $result = $apiInstance->generateAddressLabel($body);
@@ -40,11 +40,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\GenerateLabel**](../Model/GenerateLabel.md)|  | [optional]
+ **body** | [**\Vekkon\PostBarcodeClient\Model\GenerateLabel**](../Model/GenerateLabel.md)|  | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\GenerateLabelResponse**](../Model/GenerateLabelResponse.md)
+[**\Vekkon\PostBarcodeClient\Model\GenerateLabelResponse**](../Model/GenerateLabelResponse.md)
 
 ### Authorization
 

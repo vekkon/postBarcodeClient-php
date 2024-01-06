@@ -1,4 +1,4 @@
-# Swagger\Client\SingleBarcodeApi
+# Vekkon\PostBarcodeClient\SingleBarcodeApi
 
 All URIs are relative to *https://dcapi.apis.post.ch/barcode/v1*
 
@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**generateSingleBarcodes**](SingleBarcodeApi.md#generatesinglebarcodes) | **POST** /generateSingleBarcodes | Generate Single Barcode
 
 # **generateSingleBarcodes**
-> \Swagger\Client\Model\GenerateSingleBarcodesResponse generateSingleBarcodes($body)
+> \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse generateSingleBarcodes($body)
 
 Generate Single Barcode
 
@@ -19,15 +19,15 @@ Returns all single barcodes for one or several address labels generated in binar
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure OAuth2 access token for authorization: ClientCredentials
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = Vekkon\PostBarcodeClient\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Swagger\Client\Api\SingleBarcodeApi(
+$apiInstance = new Vekkon\PostBarcodeClient\Api\SingleBarcodeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\GenerateSingleBarcodes(); // \Swagger\Client\Model\GenerateSingleBarcodes | 
+$body = new \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes(); // \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes | 
 
 try {
     $result = $apiInstance->generateSingleBarcodes($body);
@@ -42,11 +42,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\GenerateSingleBarcodes**](../Model/GenerateSingleBarcodes.md)|  | [optional]
+ **body** | [**\Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes**](../Model/GenerateSingleBarcodes.md)|  | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\GenerateSingleBarcodesResponse**](../Model/GenerateSingleBarcodesResponse.md)
+[**\Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse**](../Model/GenerateSingleBarcodesResponse.md)
 
 ### Authorization
 

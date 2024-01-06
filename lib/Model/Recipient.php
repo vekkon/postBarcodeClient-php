@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace Vekkon\PostBarcodeClient\Model;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * Recipient Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class Recipient extends BaseRecipient
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'label_address' => '\Swagger\Client\Model\LabelAddress',
+        'label_address' => '\Vekkon\PostBarcodeClient\Model\LabelAddress',
         'house_key' => 'string'
     ];
 
@@ -204,7 +204,7 @@ class Recipient extends BaseRecipient
     /**
      * Gets label_address
      *
-     * @return \Swagger\Client\Model\LabelAddress
+     * @return \Vekkon\PostBarcodeClient\Model\LabelAddress
      */
     public function getLabelAddress()
     {
@@ -214,7 +214,7 @@ class Recipient extends BaseRecipient
     /**
      * Sets label_address
      *
-     * @param \Swagger\Client\Model\LabelAddress $label_address label_address
+     * @param \Vekkon\PostBarcodeClient\Model\LabelAddress $label_address label_address
      *
      * @return $this
      */

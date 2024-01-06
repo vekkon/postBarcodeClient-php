@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace Vekkon\PostBarcodeClient\Model;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ExchangeLabelDefinition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class ExchangeLabelDefinition extends ReplacementLabelDefinition
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'notification' => '\Swagger\Client\Model\ExchangeNotification'
+        'notification' => '\Vekkon\PostBarcodeClient\Model\ExchangeNotification'
     ];
 
     /**
@@ -201,7 +201,7 @@ class ExchangeLabelDefinition extends ReplacementLabelDefinition
     /**
      * Gets notification
      *
-     * @return \Swagger\Client\Model\ExchangeNotification
+     * @return \Vekkon\PostBarcodeClient\Model\ExchangeNotification
      */
     public function getNotification()
     {
@@ -211,7 +211,7 @@ class ExchangeLabelDefinition extends ReplacementLabelDefinition
     /**
      * Sets notification
      *
-     * @param \Swagger\Client\Model\ExchangeNotification $notification notification
+     * @param \Vekkon\PostBarcodeClient\Model\ExchangeNotification $notification notification
      *
      * @return $this
      */

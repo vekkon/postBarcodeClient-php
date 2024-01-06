@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'send_replacement' => '\Swagger\Client\Model\ReplacementLabelResponse',
-        'return_to_warehouse' => '\Swagger\Client\Model\ReplacementLabelResponse',
-        'send_repaired' => '\Swagger\Client\Model\ReplacementLabelResponse',
-        'return_replacement' => '\Swagger\Client\Model\ReplacementLabelResponse'
+        'send_replacement' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse',
+        'return_to_warehouse' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse',
+        'send_repaired' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse',
+        'return_replacement' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse'
     ];
 
     /**
@@ -228,7 +228,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Gets send_replacement
      *
-     * @return \Swagger\Client\Model\ReplacementLabelResponse
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse
      */
     public function getSendReplacement()
     {
@@ -238,7 +238,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Sets send_replacement
      *
-     * @param \Swagger\Client\Model\ReplacementLabelResponse $send_replacement send_replacement
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse $send_replacement send_replacement
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Gets return_to_warehouse
      *
-     * @return \Swagger\Client\Model\ReplacementLabelResponse
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse
      */
     public function getReturnToWarehouse()
     {
@@ -262,7 +262,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Sets return_to_warehouse
      *
-     * @param \Swagger\Client\Model\ReplacementLabelResponse $return_to_warehouse return_to_warehouse
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse $return_to_warehouse return_to_warehouse
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Gets send_repaired
      *
-     * @return \Swagger\Client\Model\ReplacementLabelResponse
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse
      */
     public function getSendRepaired()
     {
@@ -286,7 +286,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Sets send_repaired
      *
-     * @param \Swagger\Client\Model\ReplacementLabelResponse $send_repaired send_repaired
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse $send_repaired send_repaired
      *
      * @return $this
      */
@@ -300,7 +300,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Gets return_replacement
      *
-     * @return \Swagger\Client\Model\ReplacementLabelResponse
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse
      */
     public function getReturnReplacement()
     {
@@ -310,7 +310,7 @@ class ReplacementResponse implements ModelInterface, ArrayAccess
     /**
      * Sets return_replacement
      *
-     * @param \Swagger\Client\Model\ReplacementLabelResponse $return_replacement return_replacement
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelResponse $return_replacement return_replacement
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementLabelResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class ReplacementLabelResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'identcode' => '\Swagger\Client\Model\IdentCode',
+        'identcode' => '\Vekkon\PostBarcodeClient\Model\IdentCode',
         'image_file_type' => 'string',
         'label' => 'string[]'
     ];
@@ -216,7 +216,7 @@ class ReplacementLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets identcode
      *
-     * @return \Swagger\Client\Model\IdentCode
+     * @return \Vekkon\PostBarcodeClient\Model\IdentCode
      */
     public function getIdentcode()
     {
@@ -226,7 +226,7 @@ class ReplacementLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets identcode
      *
-     * @param \Swagger\Client\Model\IdentCode $identcode identcode
+     * @param \Vekkon\PostBarcodeClient\Model\IdentCode $identcode identcode
      *
      * @return $this
      */

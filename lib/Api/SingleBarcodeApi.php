@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Vekkon\PostBarcodeClient\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Vekkon\PostBarcodeClient\ApiException;
+use Vekkon\PostBarcodeClient\Configuration;
+use Vekkon\PostBarcodeClient\HeaderSelector;
+use Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * SingleBarcodeApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,11 +91,11 @@ class SingleBarcodeApi
      *
      * Generate Single Barcode
      *
-     * @param  \Swagger\Client\Model\GenerateSingleBarcodes $body body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\GenerateSingleBarcodesResponse
+     * @return \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse
      */
     public function generateSingleBarcodes($body = null)
     {
@@ -108,15 +108,15 @@ class SingleBarcodeApi
      *
      * Generate Single Barcode
      *
-     * @param  \Swagger\Client\Model\GenerateSingleBarcodes $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\GenerateSingleBarcodesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function generateSingleBarcodesWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\GenerateSingleBarcodesResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse';
         $request = $this->generateSingleBarcodesRequest($body);
 
         try {
@@ -168,7 +168,7 @@ class SingleBarcodeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\GenerateSingleBarcodesResponse',
+                        '\Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -176,7 +176,7 @@ class SingleBarcodeApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ValidationError[]',
+                        '\Vekkon\PostBarcodeClient\Model\ValidationError[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -191,7 +191,7 @@ class SingleBarcodeApi
      *
      * Generate Single Barcode
      *
-     * @param  \Swagger\Client\Model\GenerateSingleBarcodes $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -211,14 +211,14 @@ class SingleBarcodeApi
      *
      * Generate Single Barcode
      *
-     * @param  \Swagger\Client\Model\GenerateSingleBarcodes $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function generateSingleBarcodesAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\GenerateSingleBarcodesResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodesResponse';
         $request = $this->generateSingleBarcodesRequest($body);
 
         return $this->client
@@ -261,7 +261,7 @@ class SingleBarcodeApi
     /**
      * Create request for operation 'generateSingleBarcodes'
      *
-     * @param  \Swagger\Client\Model\GenerateSingleBarcodes $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateSingleBarcodes $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

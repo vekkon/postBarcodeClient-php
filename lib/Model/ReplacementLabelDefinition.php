@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementLabelDefinition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReplacementLabelDefinition implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'label_id' => 'string',
-        'recipient' => '\Swagger\Client\Model\BaseRecipient',
-        'attributes' => '\Swagger\Client\Model\ServiceCodeAttributes'
+        'recipient' => '\Vekkon\PostBarcodeClient\Model\BaseRecipient',
+        'attributes' => '\Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes'
     ];
 
     /**
@@ -246,7 +246,7 @@ class ReplacementLabelDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets recipient
      *
-     * @return \Swagger\Client\Model\BaseRecipient
+     * @return \Vekkon\PostBarcodeClient\Model\BaseRecipient
      */
     public function getRecipient()
     {
@@ -256,7 +256,7 @@ class ReplacementLabelDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets recipient
      *
-     * @param \Swagger\Client\Model\BaseRecipient $recipient recipient
+     * @param \Vekkon\PostBarcodeClient\Model\BaseRecipient $recipient recipient
      *
      * @return $this
      */
@@ -270,7 +270,7 @@ class ReplacementLabelDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ServiceCodeAttributes
+     * @return \Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes
      */
     public function getAttributes()
     {
@@ -280,7 +280,7 @@ class ReplacementLabelDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ServiceCodeAttributes $attributes attributes
+     * @param \Vekkon\PostBarcodeClient\Model\ServiceCodeAttributes $attributes attributes
      *
      * @return $this
      */

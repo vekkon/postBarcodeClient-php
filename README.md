@@ -58,15 +58,15 @@ Please follow the [installation procedure](#installation--usage) and then run th
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure OAuth2 access token for authorization: ClientCredentials
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+$config = Vekkon\PostBarcodeClient\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
-$apiInstance = new Swagger\Client\Api\BarcodeApi(
+$apiInstance = new Vekkon\PostBarcodeClient\Api\BarcodeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\GenerateLabel(); // \Swagger\Client\Model\GenerateLabel | 
+$body = new \Vekkon\PostBarcodeClient\Model\GenerateLabel(); // \Vekkon\PostBarcodeClient\Model\GenerateLabel | 
 
 try {
     $result = $apiInstance->generateAddressLabel($body);

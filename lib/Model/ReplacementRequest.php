@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,12 +56,12 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'language' => '\Swagger\Client\Model\Language',
-        'customer_details' => '\Swagger\Client\Model\ReplacementCustomerDetails',
-        'send_replacement' => '\Swagger\Client\Model\ExchangeLabelDefinition',
-        'return_to_warehouse' => '\Swagger\Client\Model\ReplacementLabelDefinition',
-        'send_repaired' => '\Swagger\Client\Model\ExchangeLabelDefinition',
-        'return_replacement' => '\Swagger\Client\Model\ReplacementLabelDefinition'
+        'language' => '\Vekkon\PostBarcodeClient\Model\Language',
+        'customer_details' => '\Vekkon\PostBarcodeClient\Model\ReplacementCustomerDetails',
+        'send_replacement' => '\Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition',
+        'return_to_warehouse' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition',
+        'send_repaired' => '\Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition',
+        'return_replacement' => '\Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition'
     ];
 
     /**
@@ -246,7 +246,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Vekkon\PostBarcodeClient\Model\Language
      */
     public function getLanguage()
     {
@@ -256,7 +256,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Vekkon\PostBarcodeClient\Model\Language $language language
      *
      * @return $this
      */
@@ -270,7 +270,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets customer_details
      *
-     * @return \Swagger\Client\Model\ReplacementCustomerDetails
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementCustomerDetails
      */
     public function getCustomerDetails()
     {
@@ -280,7 +280,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets customer_details
      *
-     * @param \Swagger\Client\Model\ReplacementCustomerDetails $customer_details customer_details
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementCustomerDetails $customer_details customer_details
      *
      * @return $this
      */
@@ -294,7 +294,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets send_replacement
      *
-     * @return \Swagger\Client\Model\ExchangeLabelDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition
      */
     public function getSendReplacement()
     {
@@ -304,7 +304,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets send_replacement
      *
-     * @param \Swagger\Client\Model\ExchangeLabelDefinition $send_replacement send_replacement
+     * @param \Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition $send_replacement send_replacement
      *
      * @return $this
      */
@@ -318,7 +318,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets return_to_warehouse
      *
-     * @return \Swagger\Client\Model\ReplacementLabelDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition
      */
     public function getReturnToWarehouse()
     {
@@ -328,7 +328,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets return_to_warehouse
      *
-     * @param \Swagger\Client\Model\ReplacementLabelDefinition $return_to_warehouse return_to_warehouse
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition $return_to_warehouse return_to_warehouse
      *
      * @return $this
      */
@@ -342,7 +342,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets send_repaired
      *
-     * @return \Swagger\Client\Model\ExchangeLabelDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition
      */
     public function getSendRepaired()
     {
@@ -352,7 +352,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets send_repaired
      *
-     * @param \Swagger\Client\Model\ExchangeLabelDefinition $send_repaired send_repaired
+     * @param \Vekkon\PostBarcodeClient\Model\ExchangeLabelDefinition $send_repaired send_repaired
      *
      * @return $this
      */
@@ -366,7 +366,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Gets return_replacement
      *
-     * @return \Swagger\Client\Model\ReplacementLabelDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition
      */
     public function getReturnReplacement()
     {
@@ -376,7 +376,7 @@ class ReplacementRequest implements ModelInterface, ArrayAccess
     /**
      * Sets return_replacement
      *
-     * @param \Swagger\Client\Model\ReplacementLabelDefinition $return_replacement return_replacement
+     * @param \Vekkon\PostBarcodeClient\Model\ReplacementLabelDefinition $return_replacement return_replacement
      *
      * @return $this
      */

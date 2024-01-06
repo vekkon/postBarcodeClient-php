@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * GenerateLabelResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class GenerateLabelResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'label_definition' => '\Swagger\Client\Model\ResponseGenerateLabelDefinition',
+        'label_definition' => '\Vekkon\PostBarcodeClient\Model\ResponseGenerateLabelDefinition',
         'sending_id' => 'string',
-        'item' => '\Swagger\Client\Model\ResponseItem'
+        'item' => '\Vekkon\PostBarcodeClient\Model\ResponseItem'
     ];
 
     /**
@@ -222,7 +222,7 @@ class GenerateLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets label_definition
      *
-     * @return \Swagger\Client\Model\ResponseGenerateLabelDefinition
+     * @return \Vekkon\PostBarcodeClient\Model\ResponseGenerateLabelDefinition
      */
     public function getLabelDefinition()
     {
@@ -232,7 +232,7 @@ class GenerateLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets label_definition
      *
-     * @param \Swagger\Client\Model\ResponseGenerateLabelDefinition $label_definition label_definition
+     * @param \Vekkon\PostBarcodeClient\Model\ResponseGenerateLabelDefinition $label_definition label_definition
      *
      * @return $this
      */
@@ -270,7 +270,7 @@ class GenerateLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets item
      *
-     * @return \Swagger\Client\Model\ResponseItem
+     * @return \Vekkon\PostBarcodeClient\Model\ResponseItem
      */
     public function getItem()
     {
@@ -280,7 +280,7 @@ class GenerateLabelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets item
      *
-     * @param \Swagger\Client\Model\ResponseItem $item item
+     * @param \Vekkon\PostBarcodeClient\Model\ResponseItem $item item
      *
      * @return $this
      */

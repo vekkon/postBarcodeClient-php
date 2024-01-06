@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * Notification Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class Notification implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'communication' => '\Swagger\Client\Model\Communication',
+        'communication' => '\Vekkon\PostBarcodeClient\Model\Communication',
         'service' => 'string',
         'free_text1' => 'string',
         'free_text2' => 'string',
         'delivery_instructions' => 'string[]',
-        'dyn_pic' => '\Swagger\Client\Model\DynPicType',
-        'language' => '\Swagger\Client\Model\Language',
-        'type' => '\Swagger\Client\Model\NotificationType'
+        'dyn_pic' => '\Vekkon\PostBarcodeClient\Model\DynPicType',
+        'language' => '\Vekkon\PostBarcodeClient\Model\Language',
+        'type' => '\Vekkon\PostBarcodeClient\Model\NotificationType'
     ];
 
     /**
@@ -270,7 +270,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets communication
      *
-     * @return \Swagger\Client\Model\Communication
+     * @return \Vekkon\PostBarcodeClient\Model\Communication
      */
     public function getCommunication()
     {
@@ -280,7 +280,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets communication
      *
-     * @param \Swagger\Client\Model\Communication $communication communication
+     * @param \Vekkon\PostBarcodeClient\Model\Communication $communication communication
      *
      * @return $this
      */
@@ -399,7 +399,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets dyn_pic
      *
-     * @return \Swagger\Client\Model\DynPicType
+     * @return \Vekkon\PostBarcodeClient\Model\DynPicType
      */
     public function getDynPic()
     {
@@ -409,7 +409,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets dyn_pic
      *
-     * @param \Swagger\Client\Model\DynPicType $dyn_pic dyn_pic
+     * @param \Vekkon\PostBarcodeClient\Model\DynPicType $dyn_pic dyn_pic
      *
      * @return $this
      */
@@ -423,7 +423,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Vekkon\PostBarcodeClient\Model\Language
      */
     public function getLanguage()
     {
@@ -433,7 +433,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Vekkon\PostBarcodeClient\Model\Language $language language
      *
      * @return $this
      */
@@ -447,7 +447,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\NotificationType
+     * @return \Vekkon\PostBarcodeClient\Model\NotificationType
      */
     public function getType()
     {
@@ -457,7 +457,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\NotificationType $type type
+     * @param \Vekkon\PostBarcodeClient\Model\NotificationType $type type
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Vekkon\PostBarcodeClient\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Vekkon\PostBarcodeClient\ApiException;
+use Vekkon\PostBarcodeClient\Configuration;
+use Vekkon\PostBarcodeClient\HeaderSelector;
+use Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ReplacementApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -89,11 +89,11 @@ class ReplacementApi
     /**
      * Operation submitReplacementRequest
      *
-     * @param  \Swagger\Client\Model\ReplacementRequest $body Replacement Request data (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\ReplacementRequest $body Replacement Request data (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ReplacementResponse
+     * @return \Vekkon\PostBarcodeClient\Model\ReplacementResponse
      */
     public function submitReplacementRequest($body = null)
     {
@@ -104,15 +104,15 @@ class ReplacementApi
     /**
      * Operation submitReplacementRequestWithHttpInfo
      *
-     * @param  \Swagger\Client\Model\ReplacementRequest $body Replacement Request data (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\ReplacementRequest $body Replacement Request data (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ReplacementResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Vekkon\PostBarcodeClient\Model\ReplacementResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function submitReplacementRequestWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\ReplacementResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\ReplacementResponse';
         $request = $this->submitReplacementRequestRequest($body);
 
         try {
@@ -164,7 +164,7 @@ class ReplacementApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ReplacementResponse',
+                        '\Vekkon\PostBarcodeClient\Model\ReplacementResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -172,7 +172,7 @@ class ReplacementApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ValidationError[]',
+                        '\Vekkon\PostBarcodeClient\Model\ValidationError[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -187,7 +187,7 @@ class ReplacementApi
      *
      * 
      *
-     * @param  \Swagger\Client\Model\ReplacementRequest $body Replacement Request data (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\ReplacementRequest $body Replacement Request data (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -207,14 +207,14 @@ class ReplacementApi
      *
      * 
      *
-     * @param  \Swagger\Client\Model\ReplacementRequest $body Replacement Request data (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\ReplacementRequest $body Replacement Request data (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function submitReplacementRequestAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\ReplacementResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\ReplacementResponse';
         $request = $this->submitReplacementRequestRequest($body);
 
         return $this->client
@@ -257,7 +257,7 @@ class ReplacementApi
     /**
      * Create request for operation 'submitReplacementRequest'
      *
-     * @param  \Swagger\Client\Model\ReplacementRequest $body Replacement Request data (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\ReplacementRequest $body Replacement Request data (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

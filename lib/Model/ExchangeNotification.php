@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Vekkon\PostBarcodeClient\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * ExchangeNotification Class Doc Comment
  *
  * @category Class
  * @description If type is &#x27;SMS&#x27;, then the &#x27;mobile&#x27; property of the recipient of the label is mandatory. If type is &#x27;EMAIL&#x27;, then the &#x27;email&#x27; property of the recipient of the label is mandatory.
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ExchangeNotification implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'language' => '\Swagger\Client\Model\Language',
-        'type' => '\Swagger\Client\Model\NotificationType'
+        'language' => '\Vekkon\PostBarcodeClient\Model\Language',
+        'type' => '\Vekkon\PostBarcodeClient\Model\NotificationType'
     ];
 
     /**
@@ -217,7 +217,7 @@ class ExchangeNotification implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Vekkon\PostBarcodeClient\Model\Language
      */
     public function getLanguage()
     {
@@ -227,7 +227,7 @@ class ExchangeNotification implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Vekkon\PostBarcodeClient\Model\Language $language language
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ExchangeNotification implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\NotificationType
+     * @return \Vekkon\PostBarcodeClient\Model\NotificationType
      */
     public function getType()
     {
@@ -251,7 +251,7 @@ class ExchangeNotification implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\NotificationType $type type
+     * @param \Vekkon\PostBarcodeClient\Model\NotificationType $type type
      *
      * @return $this
      */

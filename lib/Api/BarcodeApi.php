@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Vekkon\PostBarcodeClient\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Vekkon\PostBarcodeClient\ApiException;
+use Vekkon\PostBarcodeClient\Configuration;
+use Vekkon\PostBarcodeClient\HeaderSelector;
+use Vekkon\PostBarcodeClient\ObjectSerializer;
 
 /**
  * BarcodeApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Vekkon\PostBarcodeClient
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,11 +91,11 @@ class BarcodeApi
      *
      * Generate Label
      *
-     * @param  \Swagger\Client\Model\GenerateLabel $body body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateLabel $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\GenerateLabelResponse
+     * @return \Vekkon\PostBarcodeClient\Model\GenerateLabelResponse
      */
     public function generateAddressLabel($body = null)
     {
@@ -108,15 +108,15 @@ class BarcodeApi
      *
      * Generate Label
      *
-     * @param  \Swagger\Client\Model\GenerateLabel $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateLabel $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Vekkon\PostBarcodeClient\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\GenerateLabelResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Vekkon\PostBarcodeClient\Model\GenerateLabelResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function generateAddressLabelWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\GenerateLabelResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\GenerateLabelResponse';
         $request = $this->generateAddressLabelRequest($body);
 
         try {
@@ -168,7 +168,7 @@ class BarcodeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\GenerateLabelResponse',
+                        '\Vekkon\PostBarcodeClient\Model\GenerateLabelResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -176,7 +176,7 @@ class BarcodeApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         (array)json_decode($e->getResponseBody()),
-                        '\Swagger\Client\Model\ValidationError[]',
+                        '\Vekkon\PostBarcodeClient\Model\ValidationError[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -191,7 +191,7 @@ class BarcodeApi
      *
      * Generate Label
      *
-     * @param  \Swagger\Client\Model\GenerateLabel $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateLabel $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -211,14 +211,14 @@ class BarcodeApi
      *
      * Generate Label
      *
-     * @param  \Swagger\Client\Model\GenerateLabel $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateLabel $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function generateAddressLabelAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\GenerateLabelResponse';
+        $returnType = '\Vekkon\PostBarcodeClient\Model\GenerateLabelResponse';
         $request = $this->generateAddressLabelRequest($body);
 
         return $this->client
@@ -261,7 +261,7 @@ class BarcodeApi
     /**
      * Create request for operation 'generateAddressLabel'
      *
-     * @param  \Swagger\Client\Model\GenerateLabel $body (optional)
+     * @param  \Vekkon\PostBarcodeClient\Model\GenerateLabel $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
