@@ -47,7 +47,7 @@ class ResponseItem implements ModelInterface, ArrayAccess
         'item_id' => 'string',
         'errors' => '\Vekkon\PostBarcodeClient\Model\MessagesType',
         'warnings' => '\Vekkon\PostBarcodeClient\Model\MessagesType',
-        'ident_code' => '\Vekkon\PostBarcodeClient\Model\IdentCode',
+        'ident_code' => 'string',
         'label' => 'string[]'
     ];
 
